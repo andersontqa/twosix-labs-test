@@ -1,6 +1,5 @@
 import pytest
 from selenium import webdriver
-import time
 
 @pytest.mark.usefixtures("driver_init")
 class TestTwoSixLabs:
